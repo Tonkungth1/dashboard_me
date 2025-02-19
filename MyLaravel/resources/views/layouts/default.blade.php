@@ -21,11 +21,12 @@
     <link rel="stylesheet" href="../../../dist/css/adminlte.css" />
     -->
     <link rel="stylesheet" href="{{ url('public/css/adminlte.css') }}" />
+    
 
     @yield('styles')
 </head>
 
-<body class="bg-body-secondary">
+<body>
     @yield('content')
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/overlayscrollbars@2.10.1/browser/overlayscrollbars.browser.es6.min.js"
